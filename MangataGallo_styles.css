@@ -1,0 +1,167 @@
+* {
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+body {
+    background-image: url(bodybackground2.jpg);
+    background-position-y: -5rem;
+}
+
+header {
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo {
+    width: 36rem;
+}
+
+nav {
+    background-color: black;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-bottom: 0.2rem;
+    border-radius: 20px;
+}
+
+nav > ul {
+    list-style-type: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    color: grey;
+}
+
+.promotion {
+    font-size: large;
+    padding-top: 2rem;
+    padding-bottom: 0.3rem;
+    background-image: url(background.jpg);
+    background-size: cover;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+    background-position-y: -200px;
+}
+
+.promotion h1 {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.promotion:hover {
+    box-shadow: 0 16px 25px 0 black;
+    transition: 0.5s;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1 auto;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.5s;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.card1 > img {
+    width: 25rem;
+    height: 15rem;
+    border-radius: 10px 10px ;
+}
+
+.card1:hover {
+    box-shadow: 0 16px 25px 0 black;
+    background-color: rgb(195, 190, 190);
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.5s;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+
+.card2 > img {
+    width: 25rem;
+    height: 15rem;
+    border-radius: 10px 10px;
+}
+
+.card2:hover {
+    box-shadow: 0 16px 25px 0 black;
+    background-color: rgb(195, 190, 190);
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.5s;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+
+.card3 > img {
+    width: 25rem;
+    height: 15rem;
+    border-radius: 10px 10px;
+}
+
+.card3:hover {
+    box-shadow: 0 16px 25px 0 black;
+    background-color: rgb(195, 190, 190);
+}
+
+footer div img {
+    width: 25rem;
+}
+
+footer div p {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+}
+
+footer {
+    display: flex;
+    
+}
+
+footer div {
+    flex: 1 auto;
+}
